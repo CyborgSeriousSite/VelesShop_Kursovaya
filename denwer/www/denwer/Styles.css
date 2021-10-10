@@ -1,0 +1,336 @@
+body {
+	background-image: url(images/Background.png);
+    background-color: cyan;
+    margin: 0;
+}
+.header {
+	background-image: url(images/BackgroudHeader.png);
+	background-size: 400px 100px;
+    background-color: white;
+	background-repeat: repeat-x
+    position: relative;
+    padding: 5px 14px 5px 14px;
+	border-radius: 16px 16px 0px 0px;
+    border: 1px solid black;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.MenuItem {
+    padding: 0px 16px 0px 16px;
+	background-color: gray;
+	border: 1px solid black;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.MenuItem:hover {
+    padding: 0px 16px 0px 16px;
+	background-color: gray;
+	border: 1px solid black;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,1);
+	box-shadow: inset 0 0 1em gold;
+	cursor:pointer;
+}
+.page {
+    margin: 6px 0px 0px 0px;
+	background-size: 400px 100px;
+    background-color: white;
+	background-repeat: repeat-x
+    position: relative;
+    padding: 5px 14px 5px 14px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.pageReg {
+    margin: 6px 0px 0px 0px;
+	background-size: 400px 100px;
+    background-color: white;
+	background-repeat: repeat-x
+    position: relative;
+    padding: 5px 14px 5px 14px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.searchbox {
+	border-radius: 0px 16px 16px 0px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,1); /* Параметры тени */
+    background-color: gray;
+    padding: 5px 0px 5px 5px;
+}
+.inputSearch {
+	width: 100%; 
+    box-sizing: border-box;
+}
+.inputSearch2 {
+	width: 100%; 
+    box-sizing: border-box;
+}
+.inputSearch3 {
+	width: 80%; 
+    box-sizing: border-box;
+}
+.inputSearch4 {
+	width: 31%; 
+}
+.searchbutton {
+	display: inline-block;
+	text-align: justify;
+	background-color: white;
+    padding: 0px 25px 1px 25px;
+	border-radius: 5px 5px 5px 5px;
+	margin: 3px;
+}
+.LoginForm {
+	z-index: 9000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+}
+.LoginBox {
+	z-index: 9001;
+    width: 400px;
+    height: 200px;
+	left: 50%;
+	margin-left: -200px;
+	top: 50%;
+	margin-top: -100px;
+    position: fixed;
+    background-color: rgba(255,255,255,1);
+	white-space: nowrap;
+	box-shadow: 2px 2px 2px rgba(0,0,0,1); /* Параметры тени */
+}
+.LoginBoxContent {
+	padding:0% 5% 5% 5%;
+}
+.prepage {
+    padding: 16px 16px 16px 16px;
+}
+.LoginWindowLabel {
+	font-weight: bold;
+	padding-left: 14pt;
+}
+.LoginWindowLabel02 {
+	padding-left: 14pt;
+}
+.LoginWindowInput {
+     width: 100%; 
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+      border-style: inset;
+      border-width: 1px;
+	  box-shadow: 1px 1px 1px rgba(0,0,0,0.75); /* Параметры тени */
+}
+.LoginWindowInput2 {
+     width: 100%; 
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+     border-radius:16px;
+}
+.cartbutton {
+	background-color: rgba(255,255,255,1);
+	border-style: outset;
+	border-radius: 16px 16px 16px 16px;
+}
+.ProductionBox {
+	border-radius: 0px 0px 0px 0px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,1); /* Параметры тени */
+    background-color: rgba(255,255,0,1);
+    padding: 5px 0px 5px 5px;
+	display: inline-table;
+}
+.ProductionBox_O {
+	border-radius: 0px 0px 0px 0px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,1); /* Параметры тени */
+    background-color: rgba(200,200,200,1);
+    padding: 5px 0px 5px 5px;
+	display: inline-table;
+}
+.ProductionBox2 {
+	margin-top:8px;
+	border-radius: 0px 0px 0px 0px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,1); /* Параметры тени */
+    background-color: rgba(255,255,0,1);
+    padding: 5px 0px 5px 5px;
+	display: inline-table;
+}
+.productboxitem {
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,1); /* Параметры тени */
+    background-color: rgba(235,235,235,1);
+    padding: 5px 5px 5px 5px;
+	cursor:pointer;
+}
+.pbii {
+    background-color: rgba(255,255,255,1);
+}
+.pbii2 {
+    background-color: rgb(153, 153, 255);
+	border-radius: 5px 5px 5px 5px;
+}
+.CountProductInput {
+     width: 100%; 
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+      border-style: inset;
+      border-width: 1px;
+	  box-shadow: 1px 1px 1px rgba(0,0,0,0.75); /* Параметры тени */
+}
+.CountProductInputTD {
+     width: 20%; 
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+}
+.SendToCartButton {
+	border-style: inset;
+    border-width: 1px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.75); /* Параметры тени */
+    background-color: rgba(255,255,0,1);
+	border-radius: 5px 5px 5px 5px;	
+	padding: 0px 17px 0px 17px;
+	cursor:pointer;
+}
+.SendToCartButton:hover {
+	border-style: outset;
+    border-width: 1px;
+    background-color: rgba(155,155,0,1);
+	border-radius: 5px 5px 5px 5px;	
+	padding: 0px 17px 0px 17px;
+}
+.ProductionBox3 {
+	margin-top:8px;
+	border-radius: 0px 0px 0px 0px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,1); /* Параметры тени */
+    background-color: rgba(255,255,0,1);
+    padding: 5px 0px 5px 5px;
+	display: inline-table;
+}
+.CartIcon {
+	position:relative;
+}
+.CartCount {
+    position: absolute;
+    top: 45;
+	padding: 1px 5px 1px 5px;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,1); /* Параметры тени */
+    background-color: rgba(0,255,0,1);
+}
+.CartLine {
+    background-color: rgb(192,192,192);
+}
+.CartImg {
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px 0px 0px 5px;
+}
+.removefromcartbutton {
+    background-color: rgba(207,0,0,1);
+}
+.searchlist {
+    position: absolute;
+	margin: -10px 0px 0px 8px;
+    background-color: rgba(255,255,255,1);
+	padding: 5px 5px 5px 5px;
+}
+.sTableCsade {
+	width: 100%;
+}
+.searchlineq {
+	width: 100%;
+	padding: 10px 10px 10px 10px;
+	border-radius: 7px 7px 7px 7px;
+    background-color: rgba(155,155,155,1);
+}
+.pppitem {
+   margin: 5px 0px 5px 5px;
+}
+.pppitem2 {
+   margin: -17pt 0px 5px 5px;
+}
+.page2 {
+    margin: 6px 0px 0px 33.5%;
+	background-size: 400px 100px;
+    background-color: white;
+	background-repeat: repeat-x
+    position: relative;
+    padding: 5px 14px 5px 14px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.ProdListLine {
+    background-color: rgba(255,255,255,1);
+	cursor:pointer;
+}
+.ProdListLine:hover {
+    background-color: rgba(175,175,175,1);
+}
+.guestbookcontent {
+    margin: 6px 6px 6px 6px;
+	background-size: 400px 100px;
+    background-color: rgba(205,205,205,1);
+	background-repeat: repeat-x
+    position: relative;
+    padding: 5px 14px 5px 14px;
+	overflow-y:scroll;
+    border: 2px groove gray;
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.contentwithscroll {
+	display: block;
+	height: 500px;
+	width: 100%;
+	overflow-y: scroll;
+}
+.roundup {
+	border-radius: 5px 5px 0px 0px;	
+}
+.rounddown {
+	border-radius: 0px 0px 5px 5px;	
+}
+.userpostpreform {
+    resize: none;
+}
+.guestpost {
+    margin: 2px 2px 2px 2px;
+    background-color: white;
+	border-radius: 2px 2px 2px 2px;	
+}
+.guestpostava {
+	width: 64px;
+	height: 64px;
+}
+.guestbposts {
+	overflow-y: scroll;
+}
+.guestpostdate {
+   margin: 0px 0px 0px 0px;
+   font-style: italic;
+}
+.BuyButton {
+	Width: 100%;
+}
+.removefromcartbutton:hover {
+    background-color: rgba(207,0,0,1);
+	box-shadow: inset 0 0 2em gold;
+}
+.removefromcartbutton:active {
+  background-color: rgba(0,0,0,0);
+}
+.abutton {
+	text-decoration: none;
+}
+.aNoDecLink {
+	text-decoration: none;
+	cursor:pointer;
+	color: black;
+}
+.aNoDecLink:hover {
+	text-decoration: none;
+	cursor:pointer;
+	color: black;
+	text-shadow: 1px 1px 2px black, 0 0 1em gray;
+}
+.clickableObj {
+	cursor:pointer;
+}

@@ -1,0 +1,22 @@
+[Wed Feb 27 11:40:39 2019] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Wed Feb 27 11:40:39 2019] [warn] pid file Y:/usr/local/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Feb 27 11:40:39 2019] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Wed Feb 27 11:40:43 2019] [notice] Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 configured -- resuming normal operations
+[Wed Feb 27 11:40:43 2019] [notice] Server built: Apr 20 2012 18:42:30
+[Wed Feb 27 11:40:43 2019] [notice] Parent: Created child process 8732
+[Wed Feb 27 11:40:43 2019] [notice] Disabled use of AcceptEx() WinSock2 API
+Apache server shutdown initiated...
+it: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Wed Feb 27 11:40:43 2019] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Wed Feb 27 11:40:44 2019] [notice] Child 8732: Child process is running
+[Wed Feb 27 11:40:44 2019] [notice] Child 8732: Acquired the start mutex.
+[Wed Feb 27 11:40:44 2019] [notice] Child 8732: Starting 25 worker threads.
+[Wed Feb 27 11:40:44 2019] [notice] Child 8732: Listening on port 443.
+[Wed Feb 27 11:40:44 2019] [notice] Child 8732: Listening on port 8648.
+[Wed Feb 27 11:40:44 2019] [notice] Child 8732: Listening on port 443.
+[Wed Feb 27 11:40:44 2019] [notice] Child 8732: Listening on port 80.
+[Thu Feb 28 12:00:09 2019] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Feb 28 12:00:09 2019] [notice] Child 8732: Exit event signaled. Child process is ending.
+[Thu Feb 28 12:00:10 2019] [notice] Child 8732: Released the start mutex
+[Thu Feb 28 12:00:10 2019] [notice] Child 8732: All worker threads have exited.
+[Thu Feb 28 12:00:14 2019] [notice] Child 8732: Child process is exiting
